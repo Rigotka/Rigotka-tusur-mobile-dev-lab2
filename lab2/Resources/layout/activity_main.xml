@@ -12,11 +12,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <LinearLayout
-            android:id="@+id/container"
-            android:layout_height="wrap_content"
+        <lab2.ViewsContainer android:id="@+id/container"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:orientation="vertical">
-        </LinearLayout>
+            android:layout_height="wrap_content"/>
     </ScrollView>
 </LinearLayout>

@@ -1,0 +1,41 @@
+﻿<!-- custom_textview.axml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="8dp"
+    android:paddingStart="20dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img" />
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="18.5dp"
+		android:text="BoolTittle"
+		android:layout_toRightOf="@id/imageView"
+		android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BoolSubTittle"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_below="@id/textView1"
+        android:layout_marginStart="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
